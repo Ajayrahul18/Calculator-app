@@ -1,5 +1,5 @@
 #creating a class 
-'''class Clac:
+class Clac:
     def add(self):
         print(x + y)
     def sub(self):
@@ -29,20 +29,5 @@ while(choise != 0):
     elif choise == 4:
         c.div()
     else:
-        print("Invalid choise")'''
-
-'''def rec(x):
-    if x > 0:
-       print(x)
-       rec(x-1)
-rec(5)'''
-
-'''def sum(x):
-    if x != 0:
-        return(x + sum(x-1))
-    return(0)
-print(sum(5))'''
-
-skills = {'Drawing', 'Swimming', 'Singing'}
-print(set(map(lambda skill: skill.upper(), skills)))
+        print("Invalid choise")
 
