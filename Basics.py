@@ -58,8 +58,11 @@ print(site.getsitepackages())'''
 # modul'(venv)'
 
 # f - strings
-first_name = 'AJAY'
-second_name = 'Rahul'
+'''first_name = 'AJAY'
+second_name = 'rahul'
 print(f'Hello,{first_name}')
 print(f'Hello,{second_name.upper()}')
-print(f'Hello, {first_name.lower()} {second_name.upper()}')
+print(f'Hello, {first_name.lower()} {second_name.upper()}')'''
+
+# raw strings are help full when we want to add '\'
+# '\' - escape = "r'comments"
